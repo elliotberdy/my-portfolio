@@ -1,11 +1,13 @@
+// this file contains all of the relevant data for the website
+
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
-  FlagIcon,
+  // FlagIcon,
   MapIcon,
-  SparklesIcon,
+  // SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -44,8 +46,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Elliot Berdy Personal Site',
+  description: 'My personal site',
 };
 
 /**
@@ -69,19 +71,20 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Elliot Berdy`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a California based <strong className="text-stone-100">Software Developer</strong>, who recently graduated
+        from <strong className="text-stone-100">UCLA</strong> with a degree in Computer Science. I'm dedicated to making
+        a <strong className="text-stone-100">positive</strong> difference in the world through the things that truly
+        inspire me.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time time, you can catch me training for a <strong className="text-stone-100">triathlon</strong>, in
+        the Pacific Ocean <strong className="text-stone-100">surfing</strong>, or exploring the great{' '}
+        <strong className="text-stone-100">outdoors</strong>.
+      </p> */}
     </>
   ),
   actions: [
@@ -104,16 +107,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hi! I'm Elliot Berdy, a recent computer science graduate from UCLA. 
+  My passion lies in building things with code, and I am especially interested in AI, ML, and medicine. 
+  I'm not just a tech enthusiast though; I'm also an avid triathlete, nature lover, surfer, and pianist. 
+  Whether I'm coding, exploring the outdoors, or engaging with my community, I'm always trying to learn and grow as a person. 
+  My diverse experiences have honed my leadership and teamwork skills, and have also contributed to a diverse knowledge base. 
+  I'm committed to making a positive impact on society and bringing joy and light to the world around me!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Education', text: 'UCLA', Icon: AcademicCapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Location', text: 'San Francisco, CA', Icon: MapIcon},
+    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Employment', text: 'Searching...', Icon: BuildingOffice2Icon},
+    // {label: 'Interests', text: 'Triathlon, Basketball, Surfing', Icon: SparklesIcon},
   ],
 };
 
