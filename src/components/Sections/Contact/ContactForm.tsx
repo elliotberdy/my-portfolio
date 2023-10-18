@@ -1,5 +1,5 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
 import emailjs, {EmailJSResponseStatus} from 'emailjs-com';
+import {FC, memo, useCallback, useMemo, useState} from 'react';
 
 emailjs.init('gLaAxlmpOoEo4p1cF');
 

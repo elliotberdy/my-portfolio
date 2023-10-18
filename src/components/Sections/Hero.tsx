@@ -1,15 +1,16 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import {FC, memo} from 'react';
+import {FC, memo, useMemo} from 'react';
+import ReactTyped from 'react-typed';
 
 import {heroData, SectionId} from '../../data/data';
-import ReactTyped from 'react-typed';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
+  const memoizedName = useMemo(() => [name], [name]);
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -25,7 +26,7 @@ const Hero: FC = memo(() => {
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">
               <span>&lt;</span>
-              <ReactTyped strings={[name]} typeSpeed={150} backSpeed={70} loop cursorChar="/>" />
+              <ReactTyped backSpeed={70} cursorChar="/>" loop strings={memoizedName} typeSpeed={150} />
             </h1>
             {description}
             <div className="flex gap-x-4 text-neutral-100">

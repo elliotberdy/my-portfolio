@@ -209,13 +209,13 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'MyFood',
     description:
       'MyFood is a personal project of mine that can track the food a user is eating and how they are feeling after that food.',
-    url: 'https://www.elliotberdy.com/',
+    url: 'https://elliotberdy.onrender.com/',
     image: porfolioImage1,
   },
   {
     title: 'My Personal Website',
     description: 'My website that shows the world who I am.',
-    url: 'https://www.elliotberdy.com/',
+    url: 'https://elliotberdy.onrender.com/',
     image: porfolioImage2,
   },
 ];
@@ -361,7 +361,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Irvine/San Francisco, United States',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: '',
     },
     {
       type: ContactType.Github,
