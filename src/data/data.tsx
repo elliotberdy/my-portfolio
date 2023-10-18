@@ -215,7 +215,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'My Personal Website',
     description: 'My website that shows the world who I am.',
-    url: 'https://elliotberdy.onrender.com/',
+    url: 'https://elliot-berdy-website.onrender.com/',
     image: porfolioImage2,
   },
 ];
