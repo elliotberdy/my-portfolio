@@ -16,10 +16,14 @@
     "@heroicons/react": "^2.0.18",
     "autoprefixer": "^10.4.14",
     "classnames": "^2.3.2",
+    "emailjs-com": "^3.2.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-typed": "^1.2.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "sweetalert2": "^11.7.32",
     "ts-pattern": "^5.0.4"
   },
   "devDependencies": {
