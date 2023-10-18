@@ -35,9 +35,6 @@ const ContactForm: FC = memo(() => {
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
       console.log('Data to send: ', data);
       const templateParams = {
         email: data.email,
@@ -51,11 +48,14 @@ const ContactForm: FC = memo(() => {
           templateParams,
         );
         console.log('Email sent successfully:', response);
+
+        // Clear the form fields after a successful email send
+        setData(defaultData);
       } catch (error) {
         console.error('Email send error:', error);
       }
     },
-    [data],
+    [data, defaultData],
   );
 
   const inputClasses =
@@ -63,7 +63,15 @@ const ContactForm: FC = memo(() => {
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
+      <input
+        className={inputClasses}
+        name="name"
+        onChange={onChange}
+        placeholder="Name"
+        required
+        type="text"
+        value={data.name}
+      />
       <input
         autoComplete="email"
         className={inputClasses}
@@ -72,6 +80,7 @@ const ContactForm: FC = memo(() => {
         placeholder="Email"
         required
         type="email"
+        value={data.email}
       />
       <textarea
         className={inputClasses}
@@ -81,6 +90,7 @@ const ContactForm: FC = memo(() => {
         placeholder="Message"
         required
         rows={6}
+        value={data.message}
       />
       <button
         aria-label="Submit contact form"

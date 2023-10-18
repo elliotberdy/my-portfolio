@@ -85,7 +85,7 @@ export const heroData: Hero = {
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
-      primary: false,
+      primary: true,
     },
   ],
 };
