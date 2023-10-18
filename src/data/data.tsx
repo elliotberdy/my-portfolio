@@ -11,22 +11,10 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background2.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -89,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/Resume_Elliot_Berdy.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -116,7 +104,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Education', text: 'UCLA', Icon: AcademicCapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
-    {label: 'Location', text: 'San Francisco, CA', Icon: MapIcon},
+    {label: 'Location', text: 'Irvine/San Francisco, CA', Icon: MapIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Employment', text: 'Searching...', Icon: BuildingOffice2Icon},
     // {label: 'Interests', text: 'Triathlon, Basketball, Surfing', Icon: SparklesIcon},
@@ -128,70 +116,86 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'C++',
+        level: 7,
       },
       {
-        name: 'Golang',
+        name: 'C',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Soft Skills',
     skills: [
       {
-        name: 'React Native',
+        name: 'Leadership',
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'Teamwork',
+        level: 8,
+      },
+      {
+        name: 'Communication',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Web Development/Database',
+    skills: [
+      {
+        name: 'HTML/CSS',
+        level: 6,
+      },
+      {
+        name: 'JavaScript',
         level: 4,
       },
       {
-        name: 'Swift',
+        name: 'Node.js',
+        level: 4,
+      },
+      {
+        name: 'Postgres',
         level: 3,
+      },
+      {
+        name: 'React.js',
+        level: 3,
+      },
+    ],
+  },
+  {
+    name: 'Miscellaneous',
+    skills: [
+      {
+        name: 'Git',
+        level: 8,
+      },
+      {
+        name: 'Linux',
+        level: 7,
+      },
+      {
+        name: 'Tensorflow/Pytorch',
+        level: 6,
+      },
+      {
+        name: 'GCP',
+        level: 5,
+      },
+      {
+        name: 'Docker',
+        level: 4,
       },
     ],
   },
@@ -202,70 +206,17 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'MyFood',
+    description:
+      'MyFood is a personal project of mine that can track the food a user is eating and how they are feeling after that food.',
+    url: 'https://www.elliotberdy.com/',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'My Personal Website',
+    description: 'My website that shows the world who I am.',
+    url: 'https://www.elliotberdy.com/',
     image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -274,40 +225,107 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2023',
+    location: 'University of California, Los Angeles (UCLA)',
+    title: 'Bachelors of Science, Computer Science',
+    content: (
+      <p>
+        <strong>GPA:</strong> 3.63<br></br>
+        <strong>Dean's Honors List</strong> (Spring 2020, Fall 2021, Spring 2022)<br></br>
+        <strong>Computational Genomics</strong> Technical Breadth<br></br>
+        <strong>Relevant Coursework:</strong> Machine Learning, Neural Networks and Deep Learning, Artificial
+        Intelligence, Natural Language Processing, Neural Signal Processing, Software Engineering, Data Structures and
+        Algorithms, Algorithms and Complexity
+      </p>
+    ),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2018 - August 2023',
+    location: 'Camp Stone',
+    title: 'Outdoor Leadership Program Director',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <div>
+        <p>
+          <strong>
+            Outdoor Leadership Program Director (2022-23); Division Head/Medic (2021) Counselor (2018-2020)
+          </strong>
+        </p>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Designed and facilitated month-long outdoor focused program for 80 incoming 10th grade students designed to
+            help students grow and become leaders in their communities
+          </li>
+          <li>
+            Mentored and led 12 post-high school staff members in conflict resolution, program implementation, and
+            problem solving
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'November 2021 - November 2022',
+    location: 'UCLA Neurosurgery',
+    title: 'Student Researcher',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Independently developed image classifier using Python and TensorFlow to determine MRI modality in mixed
+            dataset of brain and spine MRIs with accuracy of 98.9%
+          </li>
+          <li>
+            Manually segmented paraspinal muscles in lumbar MRIs in collaboration with team of researchers and
+            neurosurgeons to train machine learning algorithms to assess degeneration and muscle integrity of paraspinal
+            muscles
+          </li>
+          <li>Published papers to World Neurosurgery and SPIE Medical Imaging</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'January 2022 - March 2022',
+    location: 'PRN',
+    title: 'EMT',
+    content: (
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Cared for patients while transporting via ambulance and administered medical treatment en route to/from
+            hospitals
+          </li>
+          <li>
+            Communicated with medical professionals, patients, and patients’ families to obtain medical histories and
+            identify treatments based on symptoms
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'August 2020 - December 2020',
+    location: 'AbbVie Inc.',
+    title: 'Research Analyst',
+    content: (
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Analyzed real-world data as a member of the Health Economics and Outcomes Research Oncology department
+          </li>
+          <li>
+            Built 5 dashboards exhibiting patients baseline info and healthcare costs and utilizations for various
+            diseases and treatments using Python and the Instant Health Data platform
+          </li>
+          <li>
+            Selected important measures to consider when examining data by reading through various research publications
+          </li>
+          <li>Measured diversity in AbbVie’s clinical trials using SAS and national databases as control</li>
+        </ul>
+      </div>
     ),
   },
 ];
@@ -319,19 +337,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Elliot Berdy',
+      text: 'Hire Him Now!',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
@@ -342,27 +350,23 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description:
+    'I love being contacted! Whether it is to discuss a job opportunity, a personal project, or just life, please reach out!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'berdyelliot@gmail.com',
+      href: 'mailto:berdyelliot@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Irvine/San Francisco, United States',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'elliotberdy',
+      href: 'https://github.com/elliotberdy',
     },
   ],
 };
@@ -371,9 +375,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/elliotberdy'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/elliot-berdy/'},
 ];
