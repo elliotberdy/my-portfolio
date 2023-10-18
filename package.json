@@ -12,7 +12,7 @@
     "sitemap": "yarn next-sitemap"
   },
   "engines": {
-    "node": ">=18.18.0 <19.0.0"
+    "node": ">=18.13.0 <19.0.0"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.16",
