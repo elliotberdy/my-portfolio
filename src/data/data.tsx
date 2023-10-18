@@ -245,12 +245,12 @@ export const experience: TimelineItem[] = [
   {
     date: 'June 2018 - August 2023',
     location: 'Camp Stone',
-    title: 'Outdoor Leadership Program Director',
+    title: 'Outdoor Leadership Summer Program Director',
     content: (
       <div>
         <p>
           <strong>
-            Outdoor Leadership Program Director (2022-23); Division Head/Medic (2021) Counselor (2018-2020)
+            Outdoor Leadership Summer Program Director (2022-23); Division Head/Medic (2021) Counselor (2018-2020)
           </strong>
         </p>
         <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
