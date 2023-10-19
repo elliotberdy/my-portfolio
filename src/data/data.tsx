@@ -2,9 +2,10 @@
 
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
+  // ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
+  DocumentTextIcon,
   // FlagIcon,
   MapIcon,
   // SparklesIcon,
@@ -81,7 +82,7 @@ export const heroData: Hero = {
       href: '/Resume_Elliot_Berdy.pdf',
       text: 'Resume',
       primary: true,
-      Icon: ArrowDownTrayIcon,
+      Icon: DocumentTextIcon,
     },
     {
       href: `#${SectionId.Contact}`,
