@@ -214,12 +214,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Hire Me Notion!',
-    description: 'A silly website that encourages Notion to hire me.',
-    url: 'https://github.com/elliotberdy/notion-web-app',
-    image: porfolioImage3,
-  },
-  {
     title: 'My Personal Website',
     description: 'My website that shows the world who I am.',
     url: 'https://elliot-berdy-website.onrender.com/',
