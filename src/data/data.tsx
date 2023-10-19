@@ -216,7 +216,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Hire Me Notion!',
     description: 'A silly website that encourages Notion to hire me.',
-    url: 'https://notion-web-app.onrender.com/',
+    url: 'https://github.com/elliotberdy/notion-web-app',
     image: porfolioImage3,
   },
   {
