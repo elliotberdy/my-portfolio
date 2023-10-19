@@ -2,13 +2,10 @@
 
 import {
   AcademicCapIcon,
-  // ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
   DocumentTextIcon,
-  // FlagIcon,
   MapIcon,
-  // SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -16,7 +13,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background2.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -217,7 +213,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'My Personal Website',
     description: 'My website that shows the world who I am.',
-    url: 'https://elliot-berdy-website.onrender.com/',
+    url: '#',
     image: porfolioImage2,
   },
 ];
@@ -245,6 +241,49 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'November 2021 - November 2022',
+    location: 'UCLA Neurosurgery',
+    title: 'Student Researcher',
+    content: (
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Independently developed image classifier using Python and TensorFlow to determine MRI modality in mixed
+            dataset of brain and spine MRIs with accuracy of 98.9%
+          </li>
+          <li>
+            Manually segmented paraspinal muscles in lumbar MRIs in collaboration with team of researchers and
+            neurosurgeons to train machine learning algorithms to assess degeneration and muscle integrity of paraspinal
+            muscles
+          </li>
+          <li>Published papers to World Neurosurgery and SPIE Medical Imaging</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    date: 'August 2020 - December 2020',
+    location: 'AbbVie Inc.',
+    title: 'Research Analyst',
+    content: (
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Analyzed real-world data as a member of the Health Economics and Outcomes Research Oncology department
+          </li>
+          <li>
+            Built 5 dashboards exhibiting patients baseline info and healthcare costs and utilizations for various
+            diseases and treatments using Python and the Instant Health Data platform
+          </li>
+          <li>
+            Selected important measures to consider when examining data by reading through various research publications
+          </li>
+          <li>Measured diversity in AbbVie’s clinical trials using SAS and national databases as control</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     date: 'June 2018 - August 2023',
     location: 'Camp Stone',
     title: 'Outdoor Leadership Summer Program Director',
@@ -269,27 +308,6 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'November 2021 - November 2022',
-    location: 'UCLA Neurosurgery',
-    title: 'Student Researcher',
-    content: (
-      <div>
-        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
-          <li>
-            Independently developed image classifier using Python and TensorFlow to determine MRI modality in mixed
-            dataset of brain and spine MRIs with accuracy of 98.9%
-          </li>
-          <li>
-            Manually segmented paraspinal muscles in lumbar MRIs in collaboration with team of researchers and
-            neurosurgeons to train machine learning algorithms to assess degeneration and muscle integrity of paraspinal
-            muscles
-          </li>
-          <li>Published papers to World Neurosurgery and SPIE Medical Imaging</li>
-        </ul>
-      </div>
-    ),
-  },
-  {
     date: 'January 2022 - March 2022',
     location: 'PRN',
     title: 'EMT',
@@ -304,28 +322,6 @@ export const experience: TimelineItem[] = [
             Communicated with medical professionals, patients, and patients’ families to obtain medical histories and
             identify treatments based on symptoms
           </li>
-        </ul>
-      </div>
-    ),
-  },
-  {
-    date: 'August 2020 - December 2020',
-    location: 'AbbVie Inc.',
-    title: 'Research Analyst',
-    content: (
-      <div>
-        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
-          <li>
-            Analyzed real-world data as a member of the Health Economics and Outcomes Research Oncology department
-          </li>
-          <li>
-            Built 5 dashboards exhibiting patients baseline info and healthcare costs and utilizations for various
-            diseases and treatments using Python and the Instant Health Data platform
-          </li>
-          <li>
-            Selected important measures to consider when examining data by reading through various research publications
-          </li>
-          <li>Measured diversity in AbbVie’s clinical trials using SAS and national databases as control</li>
         </ul>
       </div>
     ),

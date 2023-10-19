@@ -61,6 +61,8 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
     [mobile, showOverlay],
   );
 
+  const targetAttribute = url === '#' ? '_self' : '_blank';
+
   return (
     <a
       className={classNames(
@@ -71,7 +73,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
       href={url}
       onClick={handleItemClick}
       ref={linkRef}
-      target="_blank">
+      target={targetAttribute}>
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
