@@ -15,6 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background2.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -99,7 +100,7 @@ export const aboutData: About = {
   My passion lies in building things with code, and I am especially interested in AI, ML, and medicine. 
   I'm not just a tech enthusiast though; I'm also an avid triathlete, nature lover, surfer, and pianist. 
   Whether I'm coding, exploring the outdoors, or engaging with my community, I'm always trying to learn and grow as a person. 
-  My diverse experiences have honed my leadership and teamwork skills, and have also contributed to a diverse knowledge base. 
+  My diverse experiences have honed my leadership and teamwork skills, and have also contributed to a wide knowledge base. 
   I'm committed to making a positive impact on society and bringing joy and light to the world around me!`,
   aboutItems: [
     {label: 'Education', text: 'UCLA', Icon: AcademicCapIcon},
@@ -211,6 +212,12 @@ export const portfolioItems: PortfolioItem[] = [
       'MyFood is a personal project of mine that can track the food a user is eating and how they are feeling after that food.',
     url: 'https://elliotberdy.onrender.com/',
     image: porfolioImage1,
+  },
+  {
+    title: 'Hire Me Notion!',
+    description: 'A silly website that encourages Notion to hire me.',
+    url: 'https://notion-web-app.onrender.com/',
+    image: porfolioImage3,
   },
   {
     title: 'My Personal Website',

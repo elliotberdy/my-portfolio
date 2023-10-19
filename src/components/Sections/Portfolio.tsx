@@ -18,7 +18,7 @@ const Portfolio: FC = memo(() => {
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
-              <div className="pb-6 px-4" key={`${title}-${index}`}>
+              <div className="py-6 px-4" key={`${title}-${index}`}>
                 <div
                   className={classNames(
                     'relative h-60 w-78 overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
