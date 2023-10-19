@@ -303,6 +303,11 @@ export const experience: TimelineItem[] = [
             Mentored and led 12 post-high school staff members in conflict resolution, program implementation, and
             problem solving
           </li>
+          <li>
+            Served as the head medic during program activities, providing medical care and first aid for a wide range of
+            conditions, from blisters to broken bones, ensuring the safety and well-being of participants during outdoor
+            excursions
+          </li>
         </ul>
       </div>
     ),

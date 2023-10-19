@@ -22,7 +22,10 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
   const {name, level, max = 5} = skill;
 
   const ratingBlocks = Array.from({length: max}, (_, index) => (
-    <div key={index} className={`w-16 h-5 mx-0.5 mt-1 ${index < level ? 'bg-sky-900' : 'bg-neutral-300'}`} />
+    <div
+      className={`bg-neutral-300 h-5 mx-0.5 mt-1 w-16 ${index < level ? 'bg-sky-900' : 'bg-neutral-300'}`}
+      key={index}
+    />
   ));
 
   return (
