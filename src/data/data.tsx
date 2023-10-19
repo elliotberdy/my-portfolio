@@ -348,8 +348,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description:
-    'I love being contacted! Whether it is to discuss a job opportunity, a personal project, or just life, please reach out!',
+  description: `I'd love to connect! Whether it is to discuss a job opportunity, a personal project, or just life, please reach out!`,
   items: [
     {
       type: ContactType.Email,
