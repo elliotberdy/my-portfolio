@@ -44,7 +44,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  Resume: 'resume',
+  Resume: 'resumé',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -76,7 +76,7 @@ export const heroData: Hero = {
   actions: [
     {
       href: '/Resume_Elliot_Berdy.pdf',
-      text: 'Resume',
+      text: 'Resumé',
       primary: true,
       Icon: DocumentTextIcon,
     },
