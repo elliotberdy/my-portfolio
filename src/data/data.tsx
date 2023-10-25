@@ -229,8 +229,8 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         <strong>GPA:</strong> 3.63<br></br>
-        <strong>Dean's Honors List</strong> (Spring 2020, Fall 2021, Spring 2022)<br></br>
-        <strong>Computational Genomics</strong> Technical Breadth<br></br>
+        <strong>Dean's Honors List:</strong> Spring 2020, Fall 2021, Spring 2022<br></br>
+        <strong>Technical Breadth:</strong> Computational Genomics<br></br>
         <strong>Relevant Coursework:</strong> Machine Learning, Neural Networks and Deep Learning, Artificial
         Intelligence, Natural Language Processing, Neural Signal Processing, Software Engineering, Data Structures and
         Algorithms, Algorithms and Complexity
