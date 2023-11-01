@@ -250,6 +250,18 @@ export const imageItems: ImageItem[] = [
     height: 3024,
   },
   {
+    src: '/imageGallery/img5.jpg',
+    original: '/imageGallery/img5.jpg',
+    width: 4032,
+    height: 3024,
+  },
+  {
+    src: '/imageGallery/img6.jpg',
+    original: '/imageGallery/img6.jpg',
+    width: 3024,
+    height: 4032,
+  },
+  {
     src: '/imageGallery/img7.jpg',
     original: '/imageGallery/img7.jpg',
     width: 1365,
