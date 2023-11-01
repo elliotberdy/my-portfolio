@@ -290,7 +290,8 @@ export const education: TimelineItem[] = [
         <strong>Technical Breadth:</strong> Computational Genomics<br></br>
         <strong>Relevant Coursework:</strong> Machine Learning, Neural Networks and Deep Learning, Artificial
         Intelligence, Natural Language Processing, Neural Signal Processing, Software Engineering, Data Structures and
-        Algorithms, Algorithms and Complexity
+        Algorithms, Algorithms and Complexity, Cell and Molecular Biology, Physiology and Human Biology, Introduction to
+        Enzymes and Metabolism, General and Organic Chemistry
       </p>
     ),
   },
