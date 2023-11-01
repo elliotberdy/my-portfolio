@@ -20,7 +20,7 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   trailingSlash: false,
   images: {

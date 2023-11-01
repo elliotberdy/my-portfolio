@@ -35,7 +35,7 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "import/order": "off",
+    "import/order": "error",
     "no-irregular-whitespace": "off",
     "@typescript-eslint/no-unused-vars": ["warn", {"argsIgnorePattern": "^_"}],
     "object-curly-spacing": ["error", "never"],

@@ -1,6 +1,7 @@
 import {StaticImageData} from 'next/image';
 import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
 
+// import { Image } from "react-grid-gallery";
 import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
@@ -82,6 +83,10 @@ export interface PortfolioItem {
   url: string;
   image: string | StaticImageData;
 }
+
+// export interface ImageItem extends Image {
+//   original: string;
+// }
 
 /**
  * Resume section

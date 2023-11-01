@@ -7,6 +7,7 @@ import {
   DocumentTextIcon,
   MapIcon,
 } from '@heroicons/react/24/outline';
+import {Image} from 'react-grid-gallery';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -44,6 +45,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
+  Images: 'images',
   Resume: 'resumé',
   Skills: 'skills',
   Stats: 'stats',
@@ -215,6 +217,49 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'My website that shows the world who I am.',
     url: '#',
     image: porfolioImage2,
+  },
+];
+
+export interface ImageItem extends Image {
+  original: string;
+}
+
+export const imageItems: ImageItem[] = [
+  {
+    src: '/imageGallery/img1.jpg',
+    original: '/imageGallery/img1.jpg',
+    width: 768,
+    height: 1024,
+  },
+  {
+    src: '/imageGallery/img2.jpg',
+    original: '/imageGallery/img2.jpg',
+    width: 2305,
+    height: 1537,
+  },
+  {
+    src: '/imageGallery/img3.jpg',
+    original: '/imageGallery/img3.jpg',
+    width: 2305,
+    height: 1537,
+  },
+  {
+    src: '/imageGallery/img4.jpg',
+    original: '/imageGallery/img4.jpg',
+    width: 4032,
+    height: 3024,
+  },
+  {
+    src: '/imageGallery/img7.jpg',
+    original: '/imageGallery/img7.jpg',
+    width: 1365,
+    height: 2048,
+  },
+  {
+    src: '/imageGallery/img8.jpeg',
+    original: '/imageGallery/img8.jpeg',
+    width: 1920,
+    height: 1280,
   },
 ];
 
