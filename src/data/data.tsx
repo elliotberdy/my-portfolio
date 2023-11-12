@@ -14,6 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background2.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -211,6 +212,12 @@ export const portfolioItems: PortfolioItem[] = [
       'MyFood is a personal project of mine that can track the food a user is eating and how they are feeling after that food.',
     url: 'https://elliotberdy.onrender.com/',
     image: porfolioImage1,
+  },
+  {
+    title: 'Spotify Alarm',
+    description: 'Quick python script that plays a given song from Spotify using the Spotify Web API at a set time.',
+    url: 'https://github.com/elliotberdy/spotify-alarm/tree/main',
+    image: porfolioImage3,
   },
   {
     title: 'My Personal Website',
