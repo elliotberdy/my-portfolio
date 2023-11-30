@@ -13,8 +13,9 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background2.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -214,16 +215,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Spotify Alarm',
-    description: 'Quick python script that plays a given song from Spotify using the Spotify Web API at a set time.',
-    url: 'https://github.com/elliotberdy/spotify-alarm/tree/main',
-    image: porfolioImage3,
+    title: 'My Medium Profile',
+    description: 'Check out some blog posts I have written!',
+    url: 'https://medium.com/@berdyelliot',
+    image: porfolioImage4,
   },
   {
     title: 'My Personal Website',
     description: 'My website that shows the world who I am.',
     url: '#',
     image: porfolioImage2,
+  },
+  {
+    title: 'Spotify Alarm',
+    description: 'Quick python script that plays a given song from Spotify using the Spotify Web API at a set time.',
+    url: 'https://github.com/elliotberdy/spotify-alarm/tree/main',
+    image: porfolioImage3,
   },
 ];
 
