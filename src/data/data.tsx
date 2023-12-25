@@ -412,9 +412,20 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Elliot Berdy',
-      text: 'Hire him now!',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Yakov Fleischmann',
+      text: 'I had the privilege of working with, supervising, and mentoring Elliot for several years \
+      as he rose in the ranks at Camp Stone. In his final two year at camp, he ran our outward-bound \
+      leadership training program for 10th graders comprised of 85 campers and 15 staff members. \
+      He is truly remarkable. He is kind, intelligent, thoughtful, patient, and a pleasure to work with. \
+      He is confidential and trustworthy and would make an excellent addition to any team. \
+      He is the sort of individual that would be successful in any career he chooses to pursue, \
+      and any employer would be lucky to have him on their team. One of the things that stands out most \
+      about Elliot is his loyalty and therefore his selflessness. I found that he prioritized our needs \
+      at camp and his ability to help us over other personal needs and objectives/goals. \
+      It is rare and I mean RARE to find individuals in today\'s society that prioritize the needs of \
+      the many over the needs of the few or the one. If you would you like to discuss Elliot further in \
+      consideration of future employment, please feel free to contact me."',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
   ],
 };
