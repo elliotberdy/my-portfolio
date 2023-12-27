@@ -132,22 +132,9 @@ export const skills: SkillGroup[] = [
         name: 'C',
         level: 3,
       },
-    ],
-  },
-  {
-    name: 'Soft Skills',
-    skills: [
       {
-        name: 'Leadership',
-        level: 5,
-      },
-      {
-        name: 'Teamwork',
-        level: 5,
-      },
-      {
-        name: 'Communication',
-        level: 4,
+        name: 'JavaScript',
+        level: 3,
       },
     ],
   },
@@ -157,10 +144,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'HTML/CSS',
         level: 3,
-      },
-      {
-        name: 'JavaScript',
-        level: 2,
       },
       {
         name: 'React.js',
@@ -192,12 +175,37 @@ export const skills: SkillGroup[] = [
         level: 2,
       },
       {
+        name: 'AWS',
+        level: 2,
+      },
+      {
         name: 'GCP',
         level: 2,
       },
       {
         name: 'Docker',
         level: 2,
+      },
+    ],
+  },
+  {
+    name: 'Non-technical Skills',
+    skills: [
+      {
+        name: 'Leadership',
+        level: 5,
+      },
+      {
+        name: 'Teamwork',
+        level: 5,
+      },
+      {
+        name: 'Communication',
+        level: 4,
+      },
+      {
+        name: 'Hebrew',
+        level: 3,
       },
     ],
   },
@@ -313,6 +321,42 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'November 2023 - Present',
+    location: 'Fayble Inc.',
+    title: 'Software Engineer',
+    content: (
+      <div>
+        <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
+          <li>
+            Developing sole means for user-product interaction through interactive voice response (IVR) interface using
+            AWS and Python, enabling users to engage in an interactive and dynamic experience
+          </li>
+          <li>
+            Ensuring project alignment with requirements of product and company through close collaboration with fellow
+            engineers
+          </li>
+          <li>
+            Optimized storage and retrieval of user-related data by configuring DynamoDB as persistence layer, allowing
+            for personalized experience
+          </li>
+          <li>
+            Enabled IVR interface to adapt to changing game scenarios by implementing dynamic entities to support varied
+            and evolving voice response options
+          </li>
+          <li>
+            Designed and implemented user-product interaction flow by creating specialized handlers for product specific
+            actions, including starting the game, making wagers, analyzing past wagers, and managing game states,
+            creating a user friendly and engaging experience
+          </li>
+          <li>
+            Enhanced product’s resilience and facilitated efficient issue resolution through implementing robust logging
+            mechanisms
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     date: 'November 2021 - November 2022',
     location: 'UCLA Neurosurgery',
     title: 'Student Researcher',
@@ -320,15 +364,18 @@ export const experience: TimelineItem[] = [
       <div>
         <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
           <li>
-            Independently developed image classifier using Python and TensorFlow to determine MRI modality in mixed
-            dataset of brain and spine MRIs with accuracy of 98.9%
+            Developed MRI modality image classifier with Python and Tensorflow, achieving a 98.9% accuracy by leveraging
+            transfer learning with five state-of-the-art deep learning models
           </li>
           <li>
-            Manually segmented paraspinal muscles in lumbar MRIs in collaboration with team of researchers and
-            neurosurgeons to train machine learning algorithms to assess degeneration and muscle integrity of paraspinal
-            muscles
+            Enabled training of machine learning algorithms to assess and quantify paraspinal muscle degeneration by
+            collaborating with multidisciplinary team of researchers and neurosurgeons to manually segment paraspinal
+            muscles in lumbar MRIs
           </li>
-          <li>Published papers to World Neurosurgery and SPIE Medical Imaging</li>
+          <li>
+            Contributed to writing and publishing multiple research papers in prestigious journals, including World
+            Neurosurgery and SPIE Medical Imaging
+          </li>
         </ul>
       </div>
     ),
@@ -341,16 +388,14 @@ export const experience: TimelineItem[] = [
       <div>
         <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
           <li>
-            Analyzed real-world data as a member of the Health Economics and Outcomes Research Oncology department
+            Helped derive meaningful insights in oncological research by producing five dynamic dashboards utilizing
+            Python and the Health Data Platform, showcasing essential patient baseline information and healthcare costs
+            and utilization patterns across diverse diseases and treatment modalities
           </li>
           <li>
-            Built 5 dashboards exhibiting patients baseline info and healthcare costs and utilizations for various
-            diseases and treatments using Python and the Instant Health Data platform
+            Contributed to the advancement of equitable healthcare practices at AbbVie by utilizing SAS and national
+            databases to measure and analyze diversity within AbbVie’s clinical trials
           </li>
-          <li>
-            Selected important measures to consider when examining data by reading through various research publications
-          </li>
-          <li>Measured diversity in AbbVie’s clinical trials using SAS and national databases as control</li>
         </ul>
       </div>
     ),
@@ -368,12 +413,13 @@ export const experience: TimelineItem[] = [
         </p>
         <ul style={{listStyleType: 'disc', marginLeft: '20px'}}>
           <li>
-            Designed and facilitated month-long outdoor focused program for 80 incoming 10th grade students designed to
-            help students grow and become leaders in their communities
+            Facilitated growth of 80 10th grade students as individuals and leaders in their communities by designing
+            and running month-long outdoor leadership program with weeklong hiking and canoeing trips and experiential
+            education focused on community and the power of speech
           </li>
           <li>
-            Mentored and led 12 post-high school staff members in conflict resolution, program implementation, and
-            problem solving
+            Responsible for the health and safety of 90+ campers and staff members and mentored 12 post-high school
+            staff members in conflict resolution, program implementation, and problem solving
           </li>
           <li>
             Served as the head medic during program activities, providing medical care and first aid for a wide range of
