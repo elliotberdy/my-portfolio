@@ -108,7 +108,7 @@ export const aboutData: About = {
     {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Irvine/San Francisco, CA', Icon: MapIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Employment', text: 'Searching...', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Fayble Inc.', Icon: BuildingOffice2Icon},
     // {label: 'Interests', text: 'Triathlon, Basketball, Surfing', Icon: SparklesIcon},
   ],
 };
