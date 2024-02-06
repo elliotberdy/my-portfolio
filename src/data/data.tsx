@@ -65,16 +65,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a California based <strong className="text-stone-100">Software Developer</strong>, who recently graduated
-        from <strong className="text-stone-100">UCLA</strong> with a degree in Computer Science. I'm dedicated to making
-        a <strong className="text-stone-100">positive</strong> difference in the world through the things that truly
+        I'm a California based <strong className="text-stone-100">Software Engineer</strong>, with a Computer Science
+        degree from from <strong className="text-stone-100">UCLA</strong>. I'm dedicated to making a{' '}
+        <strong className="text-stone-100">positive</strong> difference in the world through the things that truly
         inspire me.
       </p>
-      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training for a <strong className="text-stone-100">triathlon</strong>, in
-        the Pacific Ocean <strong className="text-stone-100">surfing</strong>, or exploring the great{' '}
-        <strong className="text-stone-100">outdoors</strong>.
-      </p> */}
     </>
   ),
   actions: [
@@ -107,9 +102,7 @@ export const aboutData: About = {
     {label: 'Education', text: 'UCLA', Icon: AcademicCapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Irvine/San Francisco, CA', Icon: MapIcon},
-    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Employment', text: 'Fayble Inc.', Icon: BuildingOffice2Icon},
-    // {label: 'Interests', text: 'Triathlon, Basketball, Surfing', Icon: SparklesIcon},
   ],
 };
 
@@ -294,6 +287,30 @@ export const imageItems: ImageItem[] = [
     original: '/imageGallery/img8.jpeg',
     width: 1920,
     height: 1280,
+  },
+  {
+    src: '/imageGallery/img9.jpg',
+    original: '/imageGallery/img9.jpg',
+    width: 960,
+    height: 639,
+  },
+  {
+    src: '/imageGallery/img10.jpg',
+    original: '/imageGallery/img10.jpg',
+    width: 639,
+    height: 960,
+  },
+  {
+    src: '/imageGallery/img11.jpg',
+    original: '/imageGallery/img11.jpg',
+    width: 640,
+    height: 960,
+  },
+  {
+    src: '/imageGallery/img12.jpg',
+    original: '/imageGallery/img12.jpg',
+    width: 2532,
+    height: 1170,
   },
 ];
 
