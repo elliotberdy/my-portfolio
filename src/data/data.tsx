@@ -74,7 +74,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/Resume_Elliot_Berdy.pdf',
+      href: '/Elliot_Berdy_Resume_2024.pdf',
       text: 'Resumé',
       primary: true,
       Icon: DocumentTextIcon,
